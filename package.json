@@ -1,23 +1,34 @@
 {
-    "name": "CSC343-F23-HW1",
-    "version": "1.0.0",
-    "description": "CSC 343 Human Computer Interaction: Assignment 0 taught by Stephen Kobourov & Haris Riaz at the University of Arizona, Fall 2023",
-    "main": "index.js",
-    "scripts": {
-      "test": "mocha tests.js"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/hriaz17/CSC343-F23-HW1"
-    },
-    "keywords": ["graph", "analysis", "assignment", "javascript"],
-    "author": "Haris Riaz",
-    "license": "MIT",
-    "dependencies": {
-      "d3": "^7.0.0" 
-    },
-    "devDependencies": {
-      "mocha": "^10.2.0"
-    }
-  }
-  
+  "name": "csc343-f23-hw1",
+  "version": "1.0.0",
+  "description": "CSC 343 Human Computer Interaction: Assignment 0 taught by Stephen Kobourov & Haris Riaz at the University of Arizona, Fall 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hriaz17/CSC343-F23-HW1.git"
+  },
+  "keywords": [
+    "graph",
+    "analysis",
+    "assignment",
+    "javascript"
+  ],
+  "author": "Haris Riaz",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^7.0.0",
+    "express": "^4.18.2",
+    "plotly.js-dist": "^2.26.0",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/hriaz17/CSC343-F23-HW1/issues"
+  },
+  "homepage": "https://github.com/hriaz17/CSC343-F23-HW1#readme"
+}
